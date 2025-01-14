@@ -1,10 +1,10 @@
-export default function getEmailTemplate(username: string, ref: string) {
+export default function getEmailTemplate(username: string) {
   return `<!DOCTYPE html>
   <html lang="en">
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Elite AI Referral</title>
+      <title>Elite Global Intelligence Technology Internship</title>
       <style>
           body {
               font-family: Arial, sans-serif;
@@ -39,16 +39,6 @@ export default function getEmailTemplate(username: string, ref: string) {
               color: #666666;
               line-height: 1.5;
           }
-          .referral-link {
-              background-color: #007BFF;
-              color: #ffffff;
-              text-align: center;
-              padding: 10px;
-              border-radius: 4px;
-              text-decoration: none;
-              display: inline-block;
-              margin: 20px 0;
-          }
           .footer {
               text-align: center;
               font-size: 12px;
@@ -64,37 +54,30 @@ export default function getEmailTemplate(username: string, ref: string) {
   <body>
       <div class="email-container">
           <div class="header">
-              <img src="https://eliteai.com/logo.png" alt="Elite AI">
+              <img src="https://eliteai.com/logo.png" alt="Elite Global Intelligence Technology">
           </div>
           <div class="content">
-              <h1>Welcome to Elite AI Ambassador Program!</h1>
+              <h1>Welcome onboard to the Elite Global Intelligence Technology Internship!</h1>
               <p>Dear ${username},</p>
               <p>
-                  We are excited to have you as part of our Elite AI community. As an ambassador, you have the unique opportunity to share the benefits of our ELITE GLOBAL AI FREE TRAINING + INTERNSHIP PROGRAM services with your friends and family. By referring them, you help us grow our community and empower more people with AI knowledge.
+                  Our site is currently down and undergoing maintenance.
               </p>
               <p>
-                  Here is your exclusive referral link:
-              </p>
-              <a href="${ref}" class="referral-link">
-                  ${ref}
-              </a>
-              <p>
-                  Share this link with anyone interested in participating in the ELITE GLOBAL AI FREE TRAINING + INTERNSHIP PROGRAM.
+                  Please bear with us as this will be rectified shortly.
               </p>
               <p>
-                  Thank you for being a part of Elite AI and helping us spread the knowledge!
+                  Thank you for understanding.
               </p>
-              <p>Best regards,</p>
-              <p>The Elite AI Team</p>
+              <p>
+                  For more, reach out to admin support:
+              </p>
+              <p><strong>09134196351</strong></p>
           </div>
           <div class="footer">
-              <p>
-                  &copy; 2024 Elite AI. All rights reserved.<br>
-                  
-              </p>
+              <p>&copy; 2024 Elite Global Intelligence Technology. All rights reserved.</p>
           </div>
       </div>
   </body>
   </html>
-    `;
+  `;
 }
