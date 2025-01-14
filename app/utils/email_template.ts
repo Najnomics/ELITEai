@@ -74,7 +74,7 @@ export default function getEmailTemplate(username: string) {
               <p><strong>09134196351</strong></p>
           </div>
           <div class="footer">
-              <p>&copy; 2024 Elite Global Intelligence Technology. All rights reserved.</p>
+              <p>&copy; 2025 Elite Global Intelligence Technology. All rights reserved.</p>
           </div>
       </div>
   </body>
